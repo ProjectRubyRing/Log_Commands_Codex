@@ -1,5 +1,7 @@
 # JBoss EAP ログ検索（Tera Term 貼り付け用）
 
+RHEL 9.8 向けの `access_log.log`／`access_log.YYYY-MM-DD.log` の検索には、[アクセスログ用スクリプトと使い方](RHEL9.8/README.md)を参照してください。
+
 `jboss-log-view.sh` の内容全体を、Tera Term で接続した RHEL の **Bash** に貼り付けて実行します。上部の `START_JST`、`END_JST`、`LOG_TZ` を環境に合わせて変更してください。ファイルへの保存や `chmod` は不要です。
 
 - `START_JST`：開始日時。含みます。
